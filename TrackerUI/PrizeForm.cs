@@ -88,11 +88,6 @@ namespace TrackerUI
                 output = false;
             }
 
-
-
-
-
-
             return output;
         }
     }

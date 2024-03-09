@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreateTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateTeam.Designer.cs">
+      <DependentUpon>CreateTeam.cs</DependentUpon>
+    </Compile>
     <Compile Include="PrizeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CreateTeam.resx">
+      <DependentUpon>CreateTeam.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PrizeForm.resx">
       <DependentUpon>PrizeForm.cs</DependentUpon>
     </EmbeddedResource>
