@@ -26,9 +26,7 @@ namespace TrackerLibrary
                 TextFileConnector textFileConnector = new TextFileConnector();
                 Connections.Add(textFileConnector); 
             }
-
-
-            
+                      
         }
 
         public static string ConnString(string name) {

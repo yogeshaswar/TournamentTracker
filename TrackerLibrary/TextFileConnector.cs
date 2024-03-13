@@ -8,6 +8,12 @@ namespace TrackerLibrary
 {
     public class TextFileConnector : IDataConnection
     {
+        public PersonModel CreatePerson(PersonModel model)
+        {
+            // TODO save Person Model TextFile
+            return new PersonModel();
+        }
+
         public PrizeModel CreatePrize(PrizeModel model)
         {
             // TODO Save TextFile

@@ -41,7 +41,7 @@ namespace TrackerUI
 
             } else
             {
-                MessageBox.Show("Incorrect Form Fields, Try again");
+                MessageBox.Show("Invalid Form Fields, Try again");
 
             }
         }

@@ -20,7 +20,7 @@ namespace TrackerUI
 
             // Database
             GlobalConfig.InitializeConnection(true, true);
-            Application.Run(new PrizeForm());
+            Application.Run(new CreateTeam());
 
             //Application.Run(new TournamentViewer());
         }
